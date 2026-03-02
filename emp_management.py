@@ -34,7 +34,7 @@ def view_employees():
 
     conn.close()
 
-def menu():
+def main():
     while True:
         print("-------------Employee Management------------")
         print("1. Add Employee.")
@@ -52,4 +52,4 @@ def menu():
         else:
             print("Invalid choice! Try again.\n")
 
-menu()
+main()
